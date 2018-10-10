@@ -1,0 +1,33 @@
+#homepage {
+    background-color: #F7F7F7;
+    filter: brightness(90%);
+}
+
+.homepage-container {
+    background: url(../Media/Brian.jpg) no-repeat;
+    background-position: left;
+    background-attachment: fixed;
+    background-size: contain;
+    min-height: 70vh;
+
+}
+
+.text-container {
+    background: url(../Media/cubatoriano.jpg)no-repeat;
+    background-position: center;
+    min-height:20vh;
+}
+
+@media (max-width: 768px) {
+    .homepage-container {
+        background: url(../Media/Brian.jpg) no-repeat;
+        background-size: cover;
+        min-height: 60vh;
+    }
+    .text-container {
+        background: url(../Media/cubatoriano.jpg)no-repeat;
+        background-position:center;
+        background-size:350px;
+        min-height: 12vh;
+    }
+}
