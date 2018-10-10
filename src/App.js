@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import NavBar from './components/NavBar';
 import HomePage from './components/HomePage';
+import SocialMedia from './components/SocialMedia';
 
 class App extends Component {
   render() {
@@ -8,6 +9,7 @@ class App extends Component {
       <div>
         <NavBar/>
         <HomePage/>
+        <SocialMedia/>
       </div>
 
     );
