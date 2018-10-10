@@ -3,23 +3,14 @@ import {Grid, Image, Transition } from 'semantic-ui-react';
 import '../CSS/FlyUp.css';
 
 const transitions = [
-
     'fly up',
-    'fly down'
-  
   ]
-
-//   const options = transitions.map(name => ({ key: name, text: name, value: name }))
 
 export default class FlyUp extends Component {
     state = { animation: 'fly up', duration: 5000, visible: false }
 
         componentDidMount() {
             this.setState({ visible: !this.state.visible })
-        }
-        componentWillUnmount() {
-            this.setState({ visible: this.state.visible })
-
         }
 
     handleVisibility = () => this.setState({ visible: !this.state.visible })
