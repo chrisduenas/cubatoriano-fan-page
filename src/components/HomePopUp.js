@@ -5,10 +5,11 @@ import '../CSS/FlyUp.css';
 
 
 const HomePopUp = () => (
-      <Header as='h6'>
-        Watch my latest video here!
-        <Header.Subheader>EXPLICIT CONTENT</Header.Subheader>
-      </Header>
+    <div class="circular-sb">
+      I'm Circular speech bubble
+      <div class="circle1"></div>
+      <div class="circle2"></div>
+    </div>
 )
 
 export default HomePopUp;

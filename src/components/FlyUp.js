@@ -17,35 +17,21 @@ export default class FlyUp extends Component {
         const { animation, duration, visible } = this.state
 
         return(
+            <div className="bubble">
                 <Grid>
-                    <Grid.Row columns={3}>
-                        <Grid.Column floated="right" width={8}>
-                            <Transition.Group animation={animation} duration={duration}>
-                                        {visible && 
-                                                <div id="button">
-                                                    <HomePopUp/>
-                                                </div>
-                                        }
-                            </Transition.Group>
-                        </Grid.Column>
-                        <Grid.Column floated="right" width={9}>
+                    <Grid.Row columns={9}>
+                        <Grid.Column  width={3}>
                             <Transition.Group animation={animation} duration={duration}>
                                     {visible && 
-                                            <div id="button2">
-                                            </div>
-                                    }
-                            </Transition.Group>
-                        </Grid.Column>
-                        <Grid.Column floated="right" width={10}>
-                            <Transition.Group animation={animation} duration={duration}>
-                                    {visible && 
-                                            <div id="button3">
+                                            <div id="button">
+                                                <HomePopUp/>
                                             </div>
                                     }
                             </Transition.Group>
                         </Grid.Column>
                     </Grid.Row>
                 </Grid>
+                </div>
         )
     }
 }
