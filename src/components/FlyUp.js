@@ -31,7 +31,7 @@ export default class FlyUp extends Component {
                         </Grid.Column>
                     </Grid.Row>
                 </Grid>
-                </div>
+            </div>
         )
     }
 }
