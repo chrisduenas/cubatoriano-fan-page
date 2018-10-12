@@ -4,7 +4,7 @@ import '../CSS/FlyUp.css';
 import HomePopUp from './HomePopUp';
 
 export default class FlyUp extends Component {
-    state = { animation: 'fly up', duration: 3000, visible: false }
+    state = { animation: 'fly up', duration: 5000, visible: false }
 
 
         componentDidMount() {

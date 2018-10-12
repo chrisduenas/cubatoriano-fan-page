@@ -8,24 +8,28 @@
 .box {
   width: 300px;
   height: 150px;
-  margin: 50px auto;
-  background: #313b74;
+  margin: 50px 200px;
+  background: #2c3b8fec;
   padding: 20px;
   text-align: center;
   font-weight: 900;
   color: #fff;
   font-family: arial;
   position: relative;
+  border-radius: 5px;
+  text-shadow: 3px 3px 7px black;
+
+
 }
 .sb3:before {
   content: "";
   width: 0px;
   height: 0px;
   position: absolute;
-  border-left: 10px solid #313b74;
+  border-left: 10px solid #2c3b8fec;
   border-right: 10px solid transparent;
-  border-top: 10px solid #313b74;
-  border-bottom: 10px solid transparent;
+  border-top: 10px solid #2c3b8fec;
+  border-bottom: 10px dashed transparent;
   left: 19px;
   bottom: -19px;
 }
@@ -113,6 +117,20 @@
         bottom: 5px;
         background: white;
       }
+      .box {
+          width: 137px;
+          height: 131px;
+          margin: 16px -35px;
+          padding: 5px;
+          text-align: center;
+          font-weight: 900;
+          color: #fff;
+          font-family: arial;
+          position: absolute;
   }
+  .sb3 {
+    padding: 15px;
+  }
+}
   
   

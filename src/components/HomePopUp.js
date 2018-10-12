@@ -7,7 +7,7 @@ import SocialMedia from './SocialMedia'
 
 const HomePopUp = () => (
     <div class="box sb3">
-    Follow me on:
+    Follow Me On:
     <SocialMedia/>
       {/* <SocialMedia/> */}
       {/* <div class="circle1"></div> */}
